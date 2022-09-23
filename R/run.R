@@ -1,12 +1,11 @@
 
 # Environment ---------------------------------------------------------------------------------
 
+install.packages("here")
 # Install packages
 source("R/env.R")
 
 # Model training on original data of Transplant Int 2018 --------------------------------------
-install.packages("here")
-library(here)
 
 # Exploratory data analysis for the training data
 source(here("R", "func.R"))
