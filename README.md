@@ -47,5 +47,5 @@ Plots take up a lot if space, GitHub is not meant to version control plots.
 2. Consider using renv for isolation and reproducibility. It comes as an option in your Rproject settings. It can be found in the Rproject options.
 
 3. **DO NO STORE SECRETS IN YOUR VERSION CONTROL** Either use:  
-a. An .Renviron file and `Sys.getenv()` as [described by Rstudio](https://support.rstudio.com/hc/en-us/articles/360047157094-Managing-R-with-Rprofile-Renviron-Rprofile-site-Renviron-site-rsession-conf-and-repos-conf).
-b. Use A Key Vault as [described here](https://cran.r-project.org/web/packages/AzureKeyVault/vignettes/intro.html)
+a. An .Renviron file and `Sys.getenv()` as [described by Rstudio](https://support.rstudio.com/hc/en-us/articles/360047157094-Managing-R-with-Rprofile-Renviron-Rprofile-site-Renviron-site-rsession-conf-and-repos-conf).  
+b. Use A Key Vault as [described here](https://cran.r-project.org/web/packages/AzureKeyVault/vignettes/intro.html)  
