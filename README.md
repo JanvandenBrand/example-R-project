@@ -48,4 +48,6 @@ Plots take up a lot if space, GitHub is not meant to version control plots.
 
 3. **DO NO STORE SECRETS IN YOUR VERSION CONTROL** Either use:  
 a. An .Renviron file and `Sys.getenv()` as [described by Rstudio](https://support.rstudio.com/hc/en-us/articles/360047157094-Managing-R-with-Rprofile-Renviron-Rprofile-site-Renviron-site-rsession-conf-and-repos-conf).  
-b. Use A Key Vault as [described here](https://cran.r-project.org/web/packages/AzureKeyVault/vignettes/intro.html)  
+b. Use A Key Vault as [described here](https://cran.r-project.org/web/packages/AzureKeyVault/vignettes/intro.html) 
+
+and some more stuff to be added later
